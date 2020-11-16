@@ -1,1 +1,7 @@
 Scenario
+Topic: dht/CCL, cmd/CCL
+
+RaspberryPi3 publishes (topic - dht/CCL) temperature and humidity.
+Pc Subscribes (topic - dht/CCL) temperature .
+When the pc checks the temperature and exceeds a certain temperature, the pc publishes "On" (topic -  cmd/CCL) -> Two red LEDs alternately blink in RaspberryPi3
+When the pc checks the temperature and goes down to a certain temperature, the pc publishes "Off" (topic - cmd/CCL) -> 2 LEDs blink off in RP
