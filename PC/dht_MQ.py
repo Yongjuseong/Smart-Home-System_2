@@ -3,7 +3,7 @@ import paho.mqtt.publish as publish
 import time
 
 normal_temp = 26.0 # 원하는 온도 설정
-MQTT_BROKER = "192.168.0.15" # 자신의 raspberry(broker) ip
+MQTT_BROKER = "" # 자신의 raspberry(broker) ip
 
 def on_connect(client,useradta,flags,rc):
     print("Connect with result code"+str(rc))
