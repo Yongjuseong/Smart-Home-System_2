@@ -1,4 +1,4 @@
-# RasberryPi_PC_MQTT
+# RaspberryPi_PC_MQTT
 
 It's the example of using MQTT in pc and raspberrypi3.
 
